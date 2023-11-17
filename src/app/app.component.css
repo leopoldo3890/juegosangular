@@ -1,0 +1,198 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    
+}
+
+body {
+    /*es para el fondo*/
+    
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-position: center -18px;
+    flex-direction: column
+    
+   
+}
+
+/*para que no se sobre ponga el bacgroun*/
+.skin-wrapper{
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    left: 0px;
+    pointer-events: none;
+    z-index: -1;
+    display: inline-block;
+    overflow: hidden;
+}
+
+
+/*nav barra*/
+
+.navbar2{
+    background-color: #0e0f10; /*propuestas 151511 , */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.navbar2 .logo{
+    cursor: pointer;
+}
+
+/*imagen logo*/
+.navbar2 .logo img{
+    height: 100px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+/*para que salte*/
+.navbar2 .logo img:hover{
+    transform: scale(1.2);
+}
+/*letras nav*/
+.navbar2 .nav-boton{
+    list-style: none;
+}
+/*pendiente*/
+.navbar2 .nav-boton li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+.navbar2 .nav-boton li:hover{
+    transform: scale(1.1);
+}
+
+.navbar2 .nav-boton a{
+    font-size: 700;
+    color: #bfbbbb;
+    text-decoration: none;    
+}
+
+.navbar2 .nav-boton li a:hover{
+    color: #F29C50; /*propuestas #FA723E , FF623F */
+}
+/*esto es para el boton de registro*/
+.navbar2 .btn button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar2 .btn button:hover{
+    background-color: #e2f1f8;
+    color: #ff4800;
+    transform: scale(1.1);
+}
+
+/*fe*/
+
+.footer {
+    background-color: #282828;
+    color: #F29C50;
+    padding: 40px 0;
+    text-align: center;
+    
+
+}
+
+.footer-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section h2 {
+    color: #bfbbbb;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contacto span {
+    display: block;
+    margin-top: 25px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li {
+    margin-bottom: 10px;
+    color: #F29C50;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+#linksfooter{
+    color: #F29C50;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px; 
+    
+    
+}
+
+#linksfooter:hover{
+    transform: scale(1.1);
+}
+
+#linksfooter li a:hover{
+    color: #ffffff; /*propuestas #FA723E , FF623F */
+}
+
+.social-links a {
+    color: #F29C50;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-links {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.social-links li a button{
+ 
+    cursor: pointer;
+ 
+}
+
+.footer-derechos {
+    background-color: #0e0f10;
+    padding: 10px 0;
+}
+.footer-derechos p {
+    color: #8c8c8c;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer-derechos  a{
+    color: #ec5e21;
+}
