@@ -11,6 +11,15 @@
 </head>
 
 <body>
+    <!--para poder poner bien el fondo-->
+<div class="skin-wrapper ">
+    <div class="skin-inner">
+        <div class="background" >
+        <img src="\assets\halloween2021-vongrimswo.png" alt="fondo imagen" width="100%"> </div>
+        <div class="skin-bars"></div>
+    </div>
+</div>
+
 <!---pues el nav--->
 <nav class="navbar2">
     <div class="logo">
@@ -18,22 +27,15 @@
     </div>
     <nav>
        <ul class="nav-boton">
-            <li><a routerLink="pagegame.component">Inicio</a></li>
-            <!-- <a routerLink="#">Login</a>-->
+         <!-- <a routerLink="#">Login</a>-->
+            <li><a routerLink="">Inicio</a></li>
             <li><a routerLink="#">About us</a></li>
-            <li><a routerLink="#">Login</a></li>
+            <li><a routerLink="/login">Login</a></li>
        </ul>            
     </nav>
     <a class="btn" routerLink="#"><button>Sing up</button></a>
 </nav>
-<!--para poder poner bien el fondo-->
-    <div class="skin-wrapper ">
-        <div class="skin-inner">
-            <div class="background" >
-            <img src="\assets\halloween2021-vongrimswo.png" alt="fondo imagen" width="100%"> </div>
-            <div class="skin-bars"></div>
-        </div>
-    </div>
+
     
 
     
@@ -58,8 +60,8 @@
             <div class="footer-section links">
                 <h2>Quick links</h2>
                 <ul>
-                    <li><a id="linksfooter" href="#">Inicio</a></li>
-                    <li><a id="linksfooter" href="#">About us</a></li>
+                    <li><a id="linksfooter" routerLink="#">Inicio</a></li>
+                    <li><a id="linksfooter" routerLink="#">About us</a></li>
              
                 </ul>
             </div>
@@ -67,9 +69,9 @@
                 <h2>Follow us</h2>
                 <div class="social-links">
                     <ul>
-                     <li><a href="fasaddas"> <img src="\assets\facebook.png" alt="sabjdas" width="50px"></a></li>
-                     <li><a href="fasaddas"> <img src="\assets\instagram.png" alt="sabjdas" width="50px"></a></li>
-                     <li><a href="fasaddas"> <img src="assets\twitter.png" alt="sabjdas" width="50px"></a></li>
+                     <li><a routerLink='https://www.facebook.com/alejandro.figueroadelgado'> <img src="\assets\facebook.png" alt="sabjdas" width="50px"></a></li>
+                     <li><a routerLink="#"> <img src="\assets\instagram.png" alt="sabjdas" width="50px"></a></li>
+                     <li><a routerLink="#"> <img src="assets\twitter.png" alt="sabjdas" width="50px"></a></li>
                   
                 </ul>
                 </div>

@@ -11,18 +11,22 @@
 
 body {
     /*es para el fondo*/
+    position: absolute;
+    width: 100%;
+    left: 0px;
     
-    background-repeat: repeat-y;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-position: center -18px;
-    flex-direction: column
-    
+    z-index: -2;
+    display: inline-block;
+    overflow: hidden;
+     background: linear-gradient(to bottom, #0e0f10, #121010);
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #f8f8f8;
    
-}
-
-/*para que no se sobre ponga el bacgroun*/
-.skin-wrapper{
+  }
+  
+  /*para que no se sobre ponga el bacgroun*/
+  .skin-wrapper{
     position: absolute;
     top: 35px;
     width: 100%;
@@ -31,7 +35,9 @@ body {
     z-index: -1;
     display: inline-block;
     overflow: hidden;
-}
+
+  }
+  
 
 
 /*nav barra*/
