@@ -28,12 +28,14 @@
     <nav>
        <ul class="nav-boton">
          <!-- <a routerLink="#">Login</a>-->
-            <li><a routerLink="">Inicio</a></li>
+            <li><a routerLink="">Home</a></li>
             <li><a routerLink="#">About us</a></li>
             <li><a routerLink="/login">Login</a></li>
+            <li><a (click)="cambiarTema">theme's</a></li>
+
        </ul>            
     </nav>
-    <a class="btn" routerLink="#"><button>Sing up</button></a>
+    <a class="btn" routerLink="/sing-up"><button>Sing up</button></a>
 </nav>
 
     
@@ -44,7 +46,7 @@
 <router-outlet></router-outlet>
   
 
-
+<!--pie de pagina-->
 <footer class="footer">
     <div class="container">
         <div class="footer-contenido">
@@ -69,9 +71,9 @@
                 <h2>Follow us</h2>
                 <div class="social-links">
                     <ul>
-                     <li><a routerLink='https://www.facebook.com/alejandro.figueroadelgado'> <img src="\assets\facebook.png" alt="sabjdas" width="50px"></a></li>
-                     <li><a routerLink="#"> <img src="\assets\instagram.png" alt="sabjdas" width="50px"></a></li>
-                     <li><a routerLink="#"> <img src="assets\twitter.png" alt="sabjdas" width="50px"></a></li>
+                     <li><a href='https://www.facebook.com/alejandro.figueroadelgado'> <img src="\assets\facebook.png" alt="facebook" width="50px"></a></li>
+                     <li><a href="https://www.instagram.com/figueroaaaw/">  <img src="\assets\instagram.png" alt="instagram" width="50px"></a></li>
+                     <li><a href="#"> <img src="assets\twitter.png" alt="twitter" width="50px"></a></li>
                   
                 </ul>
                 </div>

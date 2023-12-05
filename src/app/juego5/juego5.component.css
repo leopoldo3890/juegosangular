@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    
+}
+
+body {
+
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-position: center -18px;
+    flex-direction: column
+
+   
+}
+
+/*para que no se sobre ponga el bacgroun*/
+.skin-wrapper{
+    position: absolute;
+    top: 35px;
+    width: 100%;
+   
+    left: 0px;
+    pointer-events: none;
+    z-index: -1;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.aside {
+    width: 200px;
+    height: 600px;
+    margin-right: 20px;
+    margin-left: 40px;
+    background-color: #282828;
+    color: F29C50;
+    padding: 20px;
+    border: 2px solid #111111;
+    border-radius: 30px; /* Ajusta el valor según tus preferencias */
+  }
+  
+  .div-vertical-add {
+    margin-bottom: 10px;
+  }
+
+  .div-vertical-game {
+    margin-bottom: 10px;
+    color: #bfbbbb;
+  }
+  #toptex {
+    color: #F29C50;
+  }
+  .aside ul li{
+    list-style: none;
+    padding: 5px;
+    padding-left: 25px;
+  }
+  .aside ul li a{
+    text-decoration: none;
+   
+  }
+  .aside img{
+    width: 100%;
+    padding-left: 5px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  .left, .right {
+    flex: 1;
+  }

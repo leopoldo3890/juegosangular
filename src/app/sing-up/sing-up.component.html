@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="/src/app/app.component.css">
+    <title>Sing up</title>
+</head>
+
+<body>
+    <form class="formulario" method="post" >
+        <h1>Sign up</h1>
+        <a class="contenedor">
+            <div class="input-contenedor">
+                <i class="fas fa-user icon"></i>
+                <input type="text" placeholder="USER" name="usuario" required>
+            </div>
+            <div class="input-contenedor">
+                <i class="fas fa-user icon"></i>
+                <input type="text" placeholder="NAME" name="nombre" required>
+            </div>
+            <div class="input-contenedor">
+                <i class="fas fa-user icon"></i>
+                <input type="text" placeholder="LAST NAME" name="apellidos" required>
+            </div>
+            <div class="input-contenedor">
+                <i class="fas fa-envelope icon"></i>
+                <input type="text" placeholder="MAIL" name="correo" required>
+            </div>
+            <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                <input type="password" placeholder="PASSWORD" name="pass" required>
+            </div>
+            <input routerLink="" class="button" type="submit" value="To register" name="register">
+        </a>
+        <p>Do you already have an account?<a routerLink="/login"> Log in</a></p>
+    </form>
+    
+</body>
+
+</html>

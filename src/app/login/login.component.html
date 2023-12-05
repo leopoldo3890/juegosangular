@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="/src/app/app.component.css">
+    <title>login</title>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="contenedorcentrado">
+            <div id="login">
+                <form action="login_registrar.php" method="post" id="loginform">
+                    <label for="User">User</label>
+                    <input id="User" type="text" name="User" placeholder="User" required>
+                    <label for="Password">Password</label>
+                    <input id="password" type="password" name="pass" placeholder="Password" required>
+                    <input type="submit" value="Get in" name="Get in">
+                    <br>
+                </form>
+            </div>
+            <div id="derecho">
+                <img src="\assets\logonecrocis-removebg-preview.png" alt="NecrosisGames" height="180" width="220" />
+                <div class="titulo">Welcome</div>
+                <hr>
+                <div class="pie-form">
+                    <a routerLink="#">Lost your password?</a>
+                    <a routerLink="/sing-up">You do not have an account? Sign up</a>
+                    <hr>
+                    <a routerLink="">« Start</a>
+                </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

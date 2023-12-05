@@ -5,17 +5,14 @@
     display: flex;
     margin: 20px;
     width: 100vh;
-   
-    
   }
+
   .main-container {
     width: 100%;
     padding-top: 20px;
     display: flex;
     /*justify-content: space-between;*/
     justify-content: center;
-    
-
   }
    /*seccion principal*/
    .section {
@@ -24,7 +21,7 @@
     float: right;
     height: auto;
     border: 2px solid #111111;
-      border-radius: 30px; /* Ajusta el valor según tus preferencias */
+    border-radius: 30px; /* ajustarce segun el borde de la cituacion */
   }
   /*parte interna de seccion (juegos)*/
   .row {
@@ -32,17 +29,29 @@
     justify-content: space-around;
     margin-bottom: 20px;
     padding-bottom: 30px;
-    
   }
+  #img-margen-top{
+    padding-top: 50px;
+  }
+  .Juego-boton img {
+    width: 200px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  } 
+  /*contenedor abajo de la img*/
 .Descripcion-portada {
     background-color: rgba(229, 229, 229, 0.08);
     font-size: 10.5px;
     text-align: center;
     color: #F29C50;
     width: 200px;
-    height: 40px;
+    height: 55px;
     padding: 8px;
-    
+    border: 2px solid #3131318d;
+    border-radius: 5px;
 }
 #spanautor{
   color: #a4a4a4;
@@ -53,19 +62,7 @@
     white-space: nowrap;
     padding: 3px 0px;
     text-overflow: ellipsis;
-  
 }
-  
-  #img-margen-top{
-    padding-top: 50px;
-  }
-  .Juego-boton img {
-    width: 200px;
-    height: 130px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   
   
   .aside {
